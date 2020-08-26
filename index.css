@@ -1,0 +1,8 @@
+.container {
+    background-color: whitesmoke;
+}
+
+.joke {
+    text-align: center;
+    border: 2px solid black;
+}
