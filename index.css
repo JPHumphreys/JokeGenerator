@@ -6,3 +6,17 @@
     text-align: center;
     border: 2px solid black;
 }
+
+.newjoke {
+    text-align: center;
+    border: 2px solid black;
+    color: lawngreen;
+}
+
+#joke-text {
+    color: lightcoral;
+}
+
+#new-joke-text {
+    color: blue;
+}
