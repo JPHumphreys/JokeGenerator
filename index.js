@@ -1,5 +1,2 @@
-debugger;
-const jokeItem = document.getElementById('joke-item');
-const classes = document.getElementsByClassName('joke');
-console.log(jokeItem);
-console.log(classes);
+let joketext= document.getElementById("joke-text");
+console.log(joketext);
