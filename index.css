@@ -7,23 +7,11 @@
     border: 2px solid black;
 }
 
-.newjoke {
-    text-align: center;
-    border: 2px solid black;
-}
 
-.newjoke p {
-    color: lawngreen;
-}
-
-p {
-    color: lightsalmon;
-}
-
-#joke-text {
+.joke-class-one {
     color: red;
 }
 
-#new-joke-text {
+.joke-class-two {
     color: springgreen;
 }
