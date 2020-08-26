@@ -1,4 +1,9 @@
-p {
+#red {
     color: red;
-    background-color: aqua;
+    background: aqua;
+}
+
+#green{
+    color: green;
+    background-color: indigo;
 }
