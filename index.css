@@ -10,13 +10,20 @@
 .newjoke {
     text-align: center;
     border: 2px solid black;
+}
+
+.newjoke p {
     color: lawngreen;
 }
 
+p {
+    color: lightsalmon;
+}
+
 #joke-text {
-    color: lightcoral;
+    color: red;
 }
 
 #new-joke-text {
-    color: blue;
+    color: springgreen;
 }
