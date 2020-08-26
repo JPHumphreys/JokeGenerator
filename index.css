@@ -3,7 +3,12 @@
     background: aqua;
 }
 
-#green{
+#green {
     color: green;
-    background-color: indigo;
+    background-color: ivory;
+}
+
+.green {
+    color: greenyellow;
+    background-color: hotpink;
 }
