@@ -58,8 +58,9 @@ function GetRandomJoke() {
         )
         .then(
             //? data ( converted json) - output to console
-            data => return data;
-        )
+            data => 
+            {return data;}
+            )
         .catch((error) => {
             console.error('Error:', error);
         });
@@ -67,6 +68,10 @@ function GetRandomJoke() {
 }
 
     function DisplayText(){
+        debugger;
         var joke = document.getElementById("joke");
         var punchline = document.getElementById("punchline");
+
+        var getRandomJoke = GetRandomJoke();
+        console.log(joke, punchline, getRandomJoke)
     }
