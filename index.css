@@ -6,3 +6,11 @@
     text-align: center;
     margin: 15px;
 }
+
+.hiddenText {
+    color: transparent;
+}
+
+p{ 
+        min-height: 24px;
+}

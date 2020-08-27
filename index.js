@@ -24,5 +24,18 @@ async function DisplayText() {
     var punchline = document.getElementById("punchline");
 
     var getRandomJoke = await GetRandomJoke();
-    console.log(joke, punchline, getRandomJoke);
+
+    joke.textContent = getRandomJoke.setup;
+    punchline.textContent = getRandomJoke.punchline;
+
+    HidePunchline(punchline);
+}
+
+function HidePunchline(punchline) {
+    punchline.classList.add("hiddenText"); 
+}
+
+function RevealPunchline(){
+    var punchline = document.getElementById("punchline");
+    punchline.classList.remove("hiddenText");
 }
