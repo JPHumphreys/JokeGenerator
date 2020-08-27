@@ -2,15 +2,7 @@
     background-color: whitesmoke;
 }
 
-.joke {
+.setup {
     text-align: center;
-    border: 2px solid black;
-}
-
-.joke-class-one {
-    color: red;
-}
-
-.joke-class-two {
-    color: springgreen;
+    margin: 15px;
 }

@@ -24,27 +24,13 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div id="joke-item" class="col-lg-4 col-md-6 col-sm-12 joke">
-                <p id="joke-text" class="joke-class-one"></p>
-            </div>
-        </div>
+    <div class="container mt-5">
+        <p id="joke" class="setup">this is the joke</p>
+        <p id="punchline" class="setup">this is the punchline</p>
     </div>
 
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-6">
-                <button id="joke-item-button" class="btn btn-primary" onclick="handleItemButton()">item button</button>
-            </div>
-            <div class="col-6">
-                <button id="joke-text-button" class="btn btn-primary" onclick="handleTextButton()">text button</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <button class="btn btn-secondary" onclick="handleClickButton(this)">click dis</button>
+        <button class="btn btn-secondary" onclick="GetRandomJoke()">click dis</button>
     </div>
 
 </body>

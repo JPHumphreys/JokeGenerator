@@ -47,3 +47,20 @@ function handleTextButton() {
         joketextelement.classList.remove("joke-class-two");
     }
 }
+
+function GetRandomJoke() {
+    fetch('https://official-joke-api.appspot.com/random_joke', {
+            method: 'GET'
+        })
+        .then(
+            //? response (raw text) - we convert into json
+            response => response.json()
+        )
+        .then(
+            //? data ( converted json) - output to console
+            data => console.log(data)
+        )
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+}
