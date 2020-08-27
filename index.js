@@ -5,11 +5,6 @@ window.onload = function () {
 
     // this sets the textContent of a HTML element to something
     joketext.textContent = "tadaka was balanced on release";
-
-}
-
-function handleClickButton(element) {
-    console.log(element);
 }
 
 function handleItemButton() {
